@@ -1,8 +1,6 @@
 #!/usr/bin/python3
+"""Flask App for Airbnb_clone_v3 project."""
 
-"""
-Flask App for Airbnb (v3) project.
-"""
 from flask import Flask, jsonify, render_template, make_response, url_for
 from flask_cors import CORS, cross_origin
 from api.v1.views import app_views
